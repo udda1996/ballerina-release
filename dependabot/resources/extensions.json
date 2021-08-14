@@ -49,9 +49,7 @@
             "build_action_file": "build-timestamped-master",
             "code_owner_id_env": "BUDDHI_USER_ID",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-random",
@@ -171,9 +169,7 @@
             "build_action_file": "build-master",
             "code_owner_id_env": "",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-log",
@@ -246,9 +242,7 @@
             "build_action_file": "build-timestamped-master",
             "code_owner_id_env": "KALAIYARASI_USER_ID",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-cache",
@@ -297,9 +291,7 @@
             "build_action_file": "build-timestamped-master",
             "code_owner_id_env": "MANINDA_USER_ID",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-mime",
@@ -330,9 +322,7 @@
             "build_action_file": "build-timestamped-master",
             "code_owner_id_env": "BHASHINEE_USER_ID",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-udp",
@@ -346,9 +336,7 @@
             "build_action_file": "build-timestamped-master",
             "code_owner_id_env": "MANINDA_USER_ID",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-uuid",
@@ -394,9 +382,7 @@
             "build_action_file": "build-timestamped-master",
             "code_owner_id_env": "MANINDA_USER_ID",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-jwt",
@@ -468,9 +454,7 @@
             "build_action_file": "build-master",
             "code_owner_id_env": "ANJANA_USER_ID",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerinax-azure.functions",
@@ -484,9 +468,7 @@
             "build_action_file": "build-master",
             "code_owner_id_env": "ANJANA_USER_ID",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-graphql",
@@ -533,9 +515,7 @@
             "build_action_file": "build-timestamped-master",
             "code_owner_id_env": "SUMUDU_USER_ID",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerinai-transaction",
@@ -567,9 +547,7 @@
             "build_action_file": "build-timestamped-master",
             "code_owner_id_env": "BHASHINEE_USER_ID",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-websub",
@@ -583,9 +561,7 @@
             "build_action_file": "build-timestamped-master",
             "code_owner_id_env": "AYESH_USER_ID",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-websubhub",
@@ -599,9 +575,7 @@
             "build_action_file": "build-timestamped-master",
             "code_owner_id_env": "AYESH_USER_ID",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-c2c",
@@ -615,9 +589,7 @@
             "build_action_file": "build-timestamped-master",
             "code_owner_id_env": "ANURUDDHA_USER_ID",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-sql",
@@ -635,23 +607,8 @@
                 "module-ballerinax-java.jdbc",
                 "module-ballerinax-mssql",
                 "module-ballerinax-mysql",
-                "module-ballerinax-postgresql",
-                "ballerina-distribution"
+                "module-ballerinax-postgresql"
             ]
-        },
-        {
-            "name": "ballerina-distribution",
-            "level": 8,
-            "group_id": "io.ballerina.stdlib",
-            "artifact_id": "distribution-ballerina",
-            "version_key": "stdlibDistributionVersion",
-            "default_branch": "master",
-            "auto_merge": true,
-            "central_only_module": false,
-            "build_action_file": "main",
-            "code_owner_id_env": "ALL_USER_ID",
-            "send_notification": true,
-            "dependents": []
         }
     ],
     "central_modules": [
